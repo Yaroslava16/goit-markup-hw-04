@@ -187,6 +187,17 @@ p {
     text-align: center;
 }
 
+.title-clients {
+    padding-top: 86px;
+    padding-bottom: 50px;
+    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
 .name {
     padding-bottom: 10px;
     
