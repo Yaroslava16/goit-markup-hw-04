@@ -257,6 +257,20 @@ p {
     text-transform: uppercase;
 }
 
+.hero {
+    height: 600px;
+    max-width: 1600px;
+    margin-bottom: 94px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    background-color: var(--secondary-bgc); 
+    background-image: url(../images/bg-hero1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .btn-group button {
     color: var(--title-text-color);
     background-color: var(--secondary-accent);
@@ -292,13 +306,6 @@ p {
 .btn-group {
     display: flex;
     justify-content: center;
-}
-
-.hero {
-    height: 600px;
-    margin-bottom: 94px;
-    
-    background-color: var(--secondary-bgc);  
 }
 
 .address {
