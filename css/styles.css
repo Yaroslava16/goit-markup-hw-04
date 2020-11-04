@@ -201,7 +201,9 @@ p {
 
 
 .name {
+    display: flex;
     padding-bottom: 10px;
+    justify-content: center;
     
     font-weight: 500;
     font-size: 16px;
@@ -209,7 +211,9 @@ p {
 }
 
 .position {
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
     margin: 0;
     
     font-weight: normal;
@@ -548,15 +552,28 @@ border-radius: 4px;
 
 .conteiner-icon {
     display: flex;
-    justify-content: center;
-    padding-right: 32px;
-    padding-bottom: 30px;
-    padding-left: 32px;
+    justify-content: space-around;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    margin-left: 32px;
 }
-.icon-svg {
-    width: 20px;
-    height: 20px;
+
+.svg-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+
     cursor: pointer;
     fill: var(--comand-icon);
+}
+
+.svg-link:hover, 
+.svg-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+    border-radius: 50%;
 }
 
