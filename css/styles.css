@@ -603,12 +603,15 @@ border-radius: 4px;
 .icon-clients {
     fill: var(--comand-icon);
 }
-.clients-svg {
+
+
+.clients-svg .link-clients {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 170px;
     height: 90px;
+    color: var(--comand-icon);
     border: 1px solid var(--comand-icon);
     border-radius: 4px;
     flex-basis: calc(100% /6 - 30px);
@@ -620,7 +623,17 @@ border-radius: 4px;
     margin-right: 0;
 }
 
-.link-clients:hover .icon-clients,
-.link-clients:focus .icon-clients {
-fill: var(--accent-color);
+.clients-svg .link-clients:hover,
+.clients-svg .link-clients:focus {
+border-color: var(--accent-color);
+color: var(--accent-color);
+}
+
+.icon-clients {
+    fill: currentColor;
+}
+
+.icon-clients:hover,
+.icon-clients:focus {
+    fill: var(--accent-color);
 }
