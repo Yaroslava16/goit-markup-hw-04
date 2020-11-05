@@ -600,12 +600,8 @@ border-radius: 4px;
     fill: var(--white-color);
     border-radius: 50%;
 }
-.icon-clients {
-    fill: var(--comand-icon);
-}
 
-
-.clients-svg .link-clients {
+.link-clients {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -623,17 +619,17 @@ border-radius: 4px;
     margin-right: 0;
 }
 
-.clients-svg .link-clients:hover,
-.clients-svg .link-clients:focus {
-border-color: var(--accent-color);
-color: var(--accent-color);
-}
-
 .icon-clients {
-    fill: currentColor;
+    fill: var(--comand-icon);
 }
 
-.icon-clients:hover,
-.icon-clients:focus {
-    fill: var(--accent-color);
+.link-clients:hover,
+.link-clients:focus {
+    border-color: var(--accent-color);
 }
+
+.link-clients:hover .icon-clients,
+.link-clients:focus .icon-clients {
+    fill: var(--accent-color);
+} 
+
