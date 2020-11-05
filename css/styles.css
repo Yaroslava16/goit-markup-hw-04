@@ -460,6 +460,12 @@ padding-left: 215px;
 
 .svg-nav {
     margin-right: 10px;
+    fill: var(--primary-text-color);
+}
+
+.link-nav:hover .svg-nav,
+.link-nav:focus .svg-nav {
+    fill: var(--accent-color);
 }
 
 .site-nav {
