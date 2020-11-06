@@ -76,6 +76,7 @@ html {
 --line-color: rgba(236, 236, 236, 1);
 --border-line: rgba(238, 238, 238, 1);
 --comand-icon: rgba(175, 177, 184, 1);
+--footer-link: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -345,6 +346,56 @@ footer {
     color: var(--white-color);
 }
 
+.footer-conteiner {
+    display: flex;
+    align-items: baseline;
+    width: 1200px;
+    padding-top: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto; 
+}
+
+.link-list {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.social-links {
+    margin-left: 70px;
+}
+
+.social-links-p {
+margin-bottom: 20px;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--white-color);
+}
+
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    
+    background-color: var(--footer-link);
+    fill: var(--white-color);
+    border-radius: 50%;
+}
+
+.footer-link {
+    margin-right: 10px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: var(--accent-color);
+}
+
 .command {
     width: auto;
     padding-right: 15px;
@@ -417,13 +468,7 @@ padding-left: 215px;
     margin-bottom: 34px;
 }
 
-.footer-conteiner {
-    width: 1200px;
-    padding-top: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: auto; 
-}
+
 
 .benefits-list{
     margin: 0;
